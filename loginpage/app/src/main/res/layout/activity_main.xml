@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F9F9F9"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0583EA"
+            android:paddingVertical="25dp"
+            android:text="Login"
+            android:layout_toRightOf="@+id/ibback"
+            android:textSize="18dp"
+            android:paddingStart="30dp"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibback"
+            android:padding="19.5dp"
+            android:background="#0583EA"
+            android:src="@drawable/ic_vector__10_" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/line1"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="-210dp"
+            android:hint="Email"
+            android:textSize="30dp"/>
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="200dp"
+            android:background="@color/black" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="-210dp"
+            android:hint="Password"
+            android:textSize="30dp"/>
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@+id/line1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="130dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line2"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:text="Use Phone Number"
+            android:textAllCaps="true"
+            android:textColor="#0583EA"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#858992"
+            android:paddingHorizontal="120dp"
+            android:paddingVertical="10sp"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnlogin"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="Forgot Password ?" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="or"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/btnfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text3"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="0dp"
+            android:background="#3B5998"
+            android:paddingHorizontal="70dp"
+            android:paddingVertical="20dp"
+            android:text="continue with faceook"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/text3"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="2dp"
+            android:layout_alignLeft="@+id/btnfb"
+            android:src="@drawable/ic_ion_logo_facebook" />
+
+        <TextView
+            android:id="@+id/btnggl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnfb"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/boxex"
+            android:paddingHorizontal="70dp"
+            android:paddingVertical="20dp"
+            android:text="continue with Google"
+            android:textColor="@color/black" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/btnfb"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="5dp"
+            android:layout_alignLeft="@+id/btnfb"
+            android:src="@drawable/google" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

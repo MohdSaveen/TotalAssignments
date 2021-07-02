@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/pa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Pending Activation"
+            android:padding="20sp"
+            android:background="#C4C4C4"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25sp"
+            android:backgroundTint="#C4C4C4"
+            android:src="@drawable/ic_vector__9_"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:text="2 September,2020"
+            android:textColor="@color/black"
+            android:layout_marginTop="100sp"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="130sp"
+            android:gravity="center|top"
+            android:text="Status:Expired"
+            android:textColor="#FF0000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/phonomoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_emojione_monotone_mobile_phone_off"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250sp"/>
+        <TextView
+            android:id="@+id/tvnex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nexuz 5 Insurance"
+            android:textSize="35sp"
+            android:layout_below="@+id/phonomoji"
+            android:layout_marginStart="90sp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:text="Activate Insurance now"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:paddingLeft="60sp"
+            android:backgroundTint="#18F148"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvnex"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:layout_above="@id/coveragetxt"
+            android:background="#C4C4C4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Device:"
+            android:layout_above="@+id/coveragetxt"
+            android:layout_marginBottom="100sp"
+            android:layout_marginStart="20sp"
+            android:textSize="25sp"
+            android:background="#C4C4C4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Insurance term"
+            android:layout_above="@+id/coveragetxt"
+            android:layout_marginBottom="40sp"
+            android:layout_marginStart="20sp"
+            android:textSize="25sp"
+            android:background="#C4C4C4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:text="LGE Nexus 5"
+            android:layout_above="@+id/coveragetxt"
+            android:layout_marginBottom="100sp"
+            android:layout_marginEnd="20sp"
+            android:textSize="25sp"
+            android:background="#C4C4C4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:text="12 Months"
+            android:layout_above="@+id/coveragetxt"
+            android:layout_marginBottom="40sp"
+            android:layout_marginEnd="20sp"
+            android:textSize="25sp"
+            android:background="#C4C4C4"/>
+
+        <TextView
+            android:id="@+id/coveragetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coverage"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_above="@id/coverage"/>
+
+        <TextView
+            android:id="@+id/coverage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="All drops and breakage cracked screen"
+            android:padding="20sp"
+            android:background="#C4C4C4"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+

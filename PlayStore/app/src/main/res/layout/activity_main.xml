@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.6"
+        android:background="#079527">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#079527"
+            android:padding="20sp"
+            android:src="@drawable/ic_vector__6_"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#079527"
+            android:layout_alignParentRight="true"
+            android:padding="20sp"
+            android:src="@drawable/ic_vector__7_"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#079527"
+            android:layout_marginTop="10sp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_carbon_play_outline"/>
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white">
+        <View
+            android:id="@+id/greensq"
+            android:layout_width="110sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginLeft="20sp"
+            android:background="@drawable/greensquare"/>
+        <View
+            android:id="@+id/view1"
+            android:layout_width="170sp"
+            android:layout_height="30sp"
+            android:layout_toRightOf="@+id/greensq"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="20sp"
+            android:background="#C4C4C4"/>
+        <View
+            android:id="@+id/view2"
+            android:layout_width="110sp"
+            android:layout_height="20sp"
+            android:layout_below="@+id/view1"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="150sp"
+            android:background="#C4C4C4"/>
+        <View
+            android:layout_width="70sp"
+            android:layout_height="20sp"
+            android:layout_below="@+id/view2"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="150sp"
+            android:background="#C4C4C4"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_group"
+            android:layout_marginTop="30sp"
+            android:layout_marginRight="20sp"
+            android:background="@color/white"/>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="160sp"
+            android:layout_height="60sp"
+            android:backgroundTint="@color/white"
+            android:text="TRY NOW"
+            android:textColor="#079527"
+            android:layout_below="@id/greensq"
+            android:layout_marginTop="40sp"
+            android:layout_marginStart="30sp"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="160sp"
+            android:layout_height="60sp"
+            android:backgroundTint="#079527"
+            android:text="Install"
+            android:textColor="@color/white"
+            android:layout_below="@id/greensq"
+            android:layout_marginTop="40sp"
+            android:layout_toRightOf="@+id/button1"
+            android:layout_marginStart="30sp"/>
+        <View
+            android:id="@+id/circle1"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:background="@drawable/circle"
+            android:layout_below="@+id/button1"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="30sp"/>
+        <View
+            android:id="@+id/circle2"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:background="@drawable/circle"
+            android:layout_below="@+id/button1"
+            android:layout_marginStart="50sp"
+            android:layout_toRightOf="@+id/circle1"
+            android:layout_marginTop="30sp"/>
+        <View
+            android:id="@+id/circle3"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:background="@drawable/circle"
+            android:layout_below="@+id/button1"
+            android:layout_marginStart="50sp"
+            android:layout_toRightOf="@+id/circle2"
+            android:layout_marginTop="30sp"/>
+
+        <View
+            android:id="@+id/dwnline1"
+            android:layout_width="360sp"
+            android:layout_height="40sp"
+            android:layout_below="@id/circle2"
+            android:layout_marginTop="50sp"
+            android:layout_marginStart="30sp"
+            android:background="#C4C4C4"/>
+        <View
+            android:id="@+id/dwnline2"
+            android:layout_width="320sp"
+            android:layout_height="40sp"
+            android:layout_below="@id/dwnline1"
+            android:layout_marginTop="30sp"
+            android:layout_marginStart="40sp"
+            android:background="#C4C4C4"/>
+
+
+
+
+    </RelativeLayout>
+
+  </LinearLayout>
